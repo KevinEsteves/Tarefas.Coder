@@ -1,0 +1,101 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 40px;
+    margin-top: 5px;
+}
+
+body {
+    background: linear-gradient(252deg, rgba(50, 227, 131, 0.38) 0%, rgba(50, 227, 131, 0.00) 100%), #263238;
+    backdrop-filter: blur(25px);
+    width: 1920px;
+    height: 1080px;
+}
+
+.logo img {
+    width: 265px;
+    height: 115px;
+    top: 5px;
+    left: 60px;
+    flex-shrink: 0;
+}
+
+.start button{
+    color: white;
+    font-weight: 900;
+    font-size: large;
+    height: 60px;
+    width: 220px;
+    border-radius: 30px;
+    background-color: #4BB257;
+}
+
+.main{
+    display: flex;
+    height: 861px;
+    justify-content: left;  
+}
+
+.menu{
+    display: grid;
+    justify-content: center;
+}
+
+.menu button{
+    color: white;
+    font-weight: 900;
+    font-size: large;
+    height: 64px;
+    width: 265px;
+    border-radius: 30px;
+    background-color: #4BB257;    
+}
+
+.topicos{
+    display: flex;
+    height: 861px;
+    width: 1350px;
+    justify-content: space-between;
+    border-radius: 30px;
+    background: #263238;
+    box-shadow: -1px 5px 10px 0px #000;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+
+.texto{
+    color: white;
+    align-self: flex-start;
+    justify-content: flex-start;
+}
+
+.personagens-img{
+    align-self: center;
+}
+
+.episodios-img{
+    align-self: center;
+}
+
+.citacoes-img{
+    align-self: center;
+}
+
+.criaturas-img{
+    align-self: center;
+}
+
+.mais button{
+    color: white;
+    font-weight: 900;
+    font-size: large;
+    height: 64px;
+    width: 265px;
+    border-radius: 30px;
+    background-color: #4BB257;      
+}
+
+h4{
+    color: white;
+}

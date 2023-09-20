@@ -1,0 +1,86 @@
+body {
+    background: linear-gradient(252deg, rgba(50, 227, 131, 0.38) 0%, rgba(50, 227, 131, 0.00) 100%), #263238;
+    backdrop-filter: blur(25px);
+    width: 1920px;
+    height: 1080px;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 40px;
+    margin-top: 5px;
+}
+
+.logo img{
+    width: 265px;
+    height: 115px;
+    top: 5px;
+    left: 60px;
+    flex-shrink: 0;
+}
+
+.restart button{
+    color: white;
+    font-weight: 900;
+    font-size: large;
+    height: 60px;
+    width: 220px;
+    border-radius: 30px;
+    background-color: #4BB257;
+}
+
+.perfil small img{
+    width: 80px;
+    height: 81px;
+    border-radius: 38.5px;
+    border-color: #4BB257;
+}
+
+.center{
+    display: flex;
+    height: 861px;
+}
+
+.menu{
+    display:grid;
+    justify-content:start;
+}
+
+.botoes button{
+    color: white;
+    font-weight: 900;
+    font-size: large;
+    height: 64px;
+    width: 265px;
+    border-radius: 30px;
+    background-color: #4BB257;    
+}
+
+.perguntas{
+    width: 1350px;
+    display: grid;
+    justify-content:left;
+    align-content:start;
+    background-color: #263238;
+    border-radius: 30px;
+    padding: 30px;
+    color: white;
+}
+
+.box6{
+    display: flex;
+    justify-content: space-evenly
+}
+
+.box6 button{
+    color: white;
+    font-weight: 900;
+    font-size: large;
+    height: 64px;
+    width: 212px;
+    border-radius: 30px;
+    background-color: #4BB257;      
+}
